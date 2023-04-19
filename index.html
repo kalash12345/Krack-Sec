@@ -188,7 +188,7 @@
             <div class="hire">
               <h2>You want us to do</h2>
               <!-- checkout formspree.io for easy form setup -->
-              <form action="POST" class="work-request" name="hireme" data-netlify="true" data-netlify-recaptcha="true">
+              <form action="POST" class="work-request" name="hireme" data-netlify="true">
                 <div class="work-request--options">
                   <span class="options-a">
                     <input id="opt-1" type="checkbox" value="app design">
@@ -253,6 +253,12 @@
                   <div class="information-email">
                     <input id="email" type="email" spellcheck="false">
                     <label for="email">Email</label>
+                  </div>
+                  <div class="field">
+                    <div>
+                      data-netlify-recaptcha="true"
+                    </div>
+                  </div>
                   </div>
                 </div>
                 <input type="submit" value="Send Request">
